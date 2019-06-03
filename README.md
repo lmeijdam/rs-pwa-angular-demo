@@ -16,3 +16,6 @@ Repo for demo purposes for Team Rockstars IT
 
 ### Tools
 - https://developers.google.com/web/tools/lighthouse/
+
+### Deployment
+- https://zeit.co/guides/deploying-angular-with-now
