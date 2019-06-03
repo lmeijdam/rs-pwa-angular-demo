@@ -6,9 +6,13 @@ Repo for demo purposes for Team Rockstars IT
 
 ### Angular
 - https://ultimatecourses.com/courses/angular
+- https://blog.angular.io/
+- https://blog.angularindepth.com/
 
 ### PWA
 - https://developers.google.com/web/progressive-web-apps/
+- https://alligator.io/angular/angular-pwa/
+- https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020
 
 ### Tools
 - https://developers.google.com/web/tools/lighthouse/
