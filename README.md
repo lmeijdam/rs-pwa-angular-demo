@@ -17,6 +17,9 @@ Repo for demo purposes for Team Rockstars IT
 - https://developers.google.com/web/progressive-web-apps/
 - https://alligator.io/angular/angular-pwa/
 - https://blog.angularindepth.com/build-a-progressive-web-app-with-angular-bf7d66744020
+- https://dzone.com/articles/developing-pwa-using-angular-7
+- https://medium.com/poka-techblog/turn-your-angular-app-into-a-pwa-in-4-easy-steps-543510a9b626
+- https://medium.com/@joseant.ruizsantiago/building-a-pwa-with-angular-6-5735d7308d25
 
 ### Tools
 - https://developers.google.com/web/tools/lighthouse/
