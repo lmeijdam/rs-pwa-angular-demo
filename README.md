@@ -6,6 +6,7 @@ Repo for demo purposes for Team Rockstars IT
 
 ### General
 - https://www.h1.nl/een-progressive-web-app-pwa-wat-zijn-de-voordelen/
+- https://www.emerce.nl/achtergrond/to-pwa-or-not-to-pwa-pwas-relevant-seo
 
 ### Angular
 - https://ultimatecourses.com/courses/angular
