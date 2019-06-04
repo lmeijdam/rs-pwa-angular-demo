@@ -4,6 +4,9 @@ Repo for demo purposes for Team Rockstars IT
 
 ## Resources
 
+### General
+- https://www.h1.nl/een-progressive-web-app-pwa-wat-zijn-de-voordelen/
+
 ### Angular
 - https://ultimatecourses.com/courses/angular
 - https://blog.angular.io/
