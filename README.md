@@ -28,3 +28,6 @@ Repo for demo purposes for Team Rockstars IT
 
 ### Deployment
 - https://zeit.co/guides/deploying-angular-with-now
+
+### Extra
+- 
