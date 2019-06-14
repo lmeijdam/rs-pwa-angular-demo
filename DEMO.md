@@ -36,6 +36,22 @@ ng add @angular/pwa --project <name>
 
 Basically all stuff is now done to transform your new Angular App into a PWA.
 
+- To run the application as PWA you need to use a production build and make use of lite-server or http-server.
+````
+ng build --prod
+cd dist/<name>
+lite-server (will run by default on 3000)
+````
+> Note; It's actually one of the requested features to let the Service worker work correctly with ng serve --prod; https://github.com/angular/angular-cli/issues/9869.
+
+### Validation
+
+To validate if the app is an PWA, we make use of Lighthouse (https://developers.google.com/web/tools/lighthouse/), a tool from the Google Chrome team that basiccaly audits the application ran in the web on certain standards to comply to be a PWA application. 
+
+For one of the above created applications, here is an example of how the audits looks before and after adding the Angular PWA schematics.
+
+
+
 
 
 
