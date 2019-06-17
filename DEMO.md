@@ -54,10 +54,16 @@ For one of the above created applications, here is an example of how the audits 
   <tr>
     <td>
       <p>Before;</p>
-      <img src="https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_nopwa.PNG" width="500">
     </td>
     <td>
       <p>After;</p>
+    </td>  
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_nopwa.PNG" width="500">
+    </td>
+    <td>
       <img src="https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_pwa.PNG" width="500">
     </td>  
   </tr>
