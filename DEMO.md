@@ -14,7 +14,6 @@ npm install -g @angular/cli
 
 > Note; you can check if you've previously installed the CLI by typing 'ng -v' of 'ng version' in command line.
 
-
 ### Angular CLI
 To start creating an Angular app as PWA start by using the following steps.
 
@@ -43,6 +42,11 @@ cd dist/<name>
 lite-server (will run by default on 3000)
 ````
 > Note; It's actually one of the requested features to let the Service worker work correctly with ng serve --prod; https://github.com/angular/angular-cli/issues/9869.
+
+### Angular Console
+Due to a bug in the latest version, it is not possible yet to do the creation with the Angular Console; https://github.com/nrwl/angular-console/issues/719. Nevertheless, it is possible to add the VS Code plugin; https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console.
+
+A new project can be created on the same way explained with the CLI.
 
 ### Validation
 
