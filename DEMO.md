@@ -50,12 +50,16 @@ To validate if the app is an PWA, we make use of Lighthouse (https://developers.
 
 For one of the above created applications, here is an example of how the audits looks before and after adding the Angular PWA schematics.
 
-![](https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_pwa.PNG)
-![](https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_nopwa.PNG)
-
-
-
-
-
-
+<table>
+  <tr>
+    <td>
+      <p>Before;</p>
+      <img src="https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_nopwa.PNG" width="500">
+    </td>
+    <td>
+      <p>After;</p>
+      <img src="https://raw.githubusercontent.com/lmeijdam/rs-pwa-angular-demo/master/images/ngaudit_pwa.PNG" width="500">
+    </td>  
+  </tr>
+</table>
 
