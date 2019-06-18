@@ -30,4 +30,4 @@ Repo for demo purposes for Team Rockstars IT
 - https://zeit.co/guides/deploying-angular-with-now
 
 ### Extra
-- 
+- https://stackoverflow.com/questions/35504194/what-features-do-progressive-web-apps-have-vs-native-apps-and-vice-versa-on-an
