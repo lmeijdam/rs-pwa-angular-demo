@@ -1,0 +1,7 @@
+<div>
+  <app-list-item *ngFor="let item of items"
+   [text]="item.name" 
+   [eventArg]="item.id"
+   (onclick)="productClicked($event)">
+  </app-list-item>
+</div>
