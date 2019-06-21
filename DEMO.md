@@ -4,11 +4,11 @@ There are 2 ways to approach the initial creation of a PWA. one by using the Ang
 
 ### Prerequisites 
 - Windows 10 focussed only during this demo!
-- http-server / lite-server
+- http-server / lite-server (optional)
 - Angular CLI (tested with version; 7.3.6)
 
 ````
-npm install -g http-server (OR lite-server)
+npm install -g http-server (OR lite-server, is not required)
 npm install -g @angular/cli
 ````
 
@@ -44,6 +44,11 @@ cd dist/<name>
 lite-server (will run by default on 3000)
 ````
 > Note; It's actually one of the requested features to let the Service worker work correctly with ng serve --prod; https://github.com/angular/angular-cli/issues/9869.
+
+- To run the application on HTTPS using ng serve is also possible
+````
+ng serve --prod --ssl=true
+````
 
 ### Angular Console
 Due to a bug in the latest version, it is not possible yet to do the creation with the Angular Console; https://github.com/nrwl/angular-console/issues/719. Nevertheless, it is possible to add the VS Code plugin; https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console.
