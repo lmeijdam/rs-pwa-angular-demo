@@ -1,8 +1,51 @@
 div.list-item {
-    padding: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+
 
     &:hover {
         cursor: pointer;
     }
 
+    &:nth-last-child() {
+        border: 0px;
+    }
+
+}
+
+.list-item-deal {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item-image-container {
+    display: flex;
+    width: 100px;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item-image {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.list-item-deal .list-item-text {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.item-text {
+    flex: 1;
+}
+
+.item-price {
+    display: flex;
+    width: 50px;
+    font-weight: bold;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as deals from 'assets/bolTopDealsResult.json'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,12 @@ import * as deals from 'assets/bolTopDealsResult.json'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(private router: Router) {}
+
   ngOnInit(): void {
+  }
+
+  navigateHome() {
+    this.router.navigate(['/']);
   }
 }

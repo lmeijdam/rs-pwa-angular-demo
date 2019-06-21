@@ -1,3 +1,16 @@
-<div class="list-item" (click)="onclick.emit(eventArg)">
-  {{text}}
+<div class="list-item" [ngClass]="{'list-item-deal': deal !== null}" (click)="onclick.emit(eventArg)">
+  <div class="list-item-image-container">
+
+    <img [src]="deal.image" class="list-item-image" *ngIf="deal" />
+  </div>
+  <div class="list-item-text">
+      <div class="item-text">
+          {{text}}
+      </div>
+      <div *ngIf="deal" class="item-price">
+          {{deal.price}}
+      </div>
+  </div>
+
+
 </div>

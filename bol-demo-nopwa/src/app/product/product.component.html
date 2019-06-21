@@ -1,8 +1,12 @@
-<div>
+<div class="product">
   <h1>{{product.name}}</h1>
-  <img [src]="product.image" height="250">
-
-  <p>
-    <a href="https://www.bol.com{{product.url}}" target="_blank">View Online</a>
-  </p>
+  <div class="product-image-container">
+    <img [src]="product.image" alt="" class="product-image" />
+  </div>
+  <div class="product-price">
+        Now only {{product.price}}!
+    </div>
+    <div class="product-link">      
+      <a href="https://www.bol.com{{product.url}}" target="_blank" class="btn">View Online</a>
+    </div>
 </div>
