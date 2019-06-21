@@ -35,6 +35,8 @@ ng add @angular/pwa --project <name>
 
 Basically all stuff is now done to transform your new Angular App into a PWA.
 
+- Show added files and dependencies. The service worker and manifest.
+
 - To run the application as PWA you need to use a production build and make use of lite-server or http-server.
 ````
 ng build --prod
