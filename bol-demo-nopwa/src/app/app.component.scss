@@ -4,7 +4,20 @@
     color: #fff;
     font-size: 16pt;
     font-weight: bold;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
 }
+
+.title {
+    flex: 1;
+    cursor: pointer;    
+}
+
+.back {
+    cursor: pointer;    
+}
+
 
 .content {
     margin-top: 10px;

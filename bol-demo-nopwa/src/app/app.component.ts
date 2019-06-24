@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private router: Router) {}
+  hasParams: boolean = false;
+
+  constructor(private router: Router, private route: ActivatedRoute) {}
+
 
   ngOnInit(): void {
   }
