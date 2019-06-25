@@ -80,3 +80,6 @@ For one of the above created applications, here is an example of how the audits 
   </tr>
 </table>
 
+### Service Worker
+To see the Service Worker ; https://blog.ng-book.com/service-workers-and-angular/
+
