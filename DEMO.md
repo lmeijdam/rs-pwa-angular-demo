@@ -81,5 +81,6 @@ For one of the above created applications, here is an example of how the audits 
 </table>
 
 ### Service Worker
-To see the Service Worker ; https://blog.ng-book.com/service-workers-and-angular/
+To see the Service Worker ; https://blog.ng-book.com/service-workers-and-angular/ 
+https://medium.com/google-developer-experts/a-new-angular-service-worker-creating-automatic-progressive-web-apps-part-2-practice-3221471269a1
 
