@@ -21,6 +21,7 @@ Repo for demo purposes for Team Rockstars IT
 - https://medium.com/poka-techblog/turn-your-angular-app-into-a-pwa-in-4-easy-steps-543510a9b626
 - https://medium.com/@joseant.ruizsantiago/building-a-pwa-with-angular-6-5735d7308d25
 - https://www.smashingmagazine.com/2018/09/pwa-angular-6/
+- https://malcoded.com/posts/angular-push-notifications/
 
 ### Tools
 - https://developers.google.com/web/tools/lighthouse/
